@@ -1,0 +1,25 @@
+{
+  "name": "chantina-api",
+  "version": "1.0.0",
+  "description": "api for chantina",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChatechUB/chantina-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChatechUB/chantina-api/issues"
+  },
+  "homepage": "https://github.com/ChatechUB/chantina-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "firebase": "^8.10.0"
+  }
+}
