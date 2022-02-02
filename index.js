@@ -34,7 +34,7 @@ app.get("/getDay", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    res.send("chantina.no!");
+    res.redirect(301, "https://github.com/ChatechUB/chantina-api#chantina-api");
 });
 
 app.listen(port, () => {
