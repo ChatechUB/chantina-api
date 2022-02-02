@@ -6,7 +6,7 @@ Databasen blir manuelt oppdatert hver uke av kantine lederen.
 
 ## Endpoints
 
-For å spørre apien må du spørre `api.chantina.no` fulgt av et av de følgene alternaltivene
+For å spørre apien må du spørre `https://api.chantina.no` fulgt av et av de følgene alternaltivene
 
 ### /getWeek
 
@@ -18,7 +18,7 @@ Svarer med et json objekt med dagens mat
 
 #### Eksempel
 
-`api.chantina.no/getToday`
+`https://api.chantina.no/getToday`
 
 Svar:
 {Matrett: "Bolognese", Pris: "40kr"}
@@ -31,7 +31,7 @@ Vil svare med status 400 om dagen er mer enn 6
 
 #### Eksempel
 
-`api.chantina.no/getDay?2`
+`https://api.chantina.no/getDay?2`
 
 Svar:
 {Matrett: "Bolognese", Pris: "40kr"}
