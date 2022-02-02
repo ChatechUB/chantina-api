@@ -23,7 +23,7 @@ Svarer med et json objekt med dagens mat
 Svar:
 {Matrett: "Bolognese", Pris: "40kr"}
 
-### /getDay?
+### /getDay? [ string ]
 
 Svarer med en valgt dags [ 1-5 ] mat
 
