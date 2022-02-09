@@ -1,10 +1,11 @@
 const getDay = async (req, res, db) => {
-    const colRef = db.collection("Mat").doc("1");
 
     let data = [];
     let day = req.url.split("?")[1];
     let dayInt = parseInt(day);
 
+    const colRef = db.collection("Mat").doc(day);
+    
     if (dayInt && dayInt < 6) {
         colRef
             .get()
